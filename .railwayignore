@@ -1,0 +1,8 @@
+apps/ui-playground/
+apps/console/
+apps/website/
+apps/api/
+apps/api-proxy/
+apps/ai/
+apps/swagger/
+example-apps/ 

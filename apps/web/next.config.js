@@ -1,4 +1,4 @@
-require("dotenv").config({ path: "../../.env" });
+require("dotenv").config({ path: "../../../.env" });
 const englishTranslation = require("../../packages/lib/server/locales/en/common.json");
 const { withAxiom } = require("next-axiom");
 const { version } = require("./package.json");
@@ -345,7 +345,7 @@ const nextConfig = {
       },
       {
         source: "/icons/sprite.svg",
-        destination: `${process.env.NEXT_PUBLIC_WEBAPP_URL}/icons/sprite.svg`,
+        destination: "/icons/sprite.svg",
       },
       // for @dub/analytics, @see: https://d.to/reverse-proxy
       {
